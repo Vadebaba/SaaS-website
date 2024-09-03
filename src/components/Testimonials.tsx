@@ -87,16 +87,16 @@ const TestimonialsColumn = (props: {
 
   <div className={props.className}>
     <motion.div
-      
-      animate={{
-        translateY: '-50%',
-      }}
-      transition={{
-        duration: props.duration || 15,
-        repeat: Infinity,
-        ease: 'linear',
-        repeatType: 'loop',
-      }}
+    
+    animate={{
+      translateY: '-50%',
+    }}
+    transition={{
+      duration: props.duration || 15,
+      repeat: Infinity,
+      ease: 'linear',
+      repeatType: 'loop',
+    }}
 
       className='className="flex flex-col mt-10 gap-6 pb-6'
     >
